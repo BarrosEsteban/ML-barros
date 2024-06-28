@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <div>
+
+            <div class="header-top">
+                <div class="logo-mercadoliebre">
+                    <img src="/img/logo-mercado-liebre.svg" alt="">
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Buscar">
+                    <button><i class="fa fa-search"></i>
+                </div></button>
+            </div>
+
+            <div>
+                <p class="compra"><i class="fa-solid fa-hand-holding-dollar"></i> compra en cuotas y sin tarjeta de
+                    credito
+                </p>
+            </div>
+
+
+            <div>
+                <nav class="navbar-item">
+
+                    <ul>
+
+                        <a href="">
+                            <li>Ofertas</li>
+                        </a>
+                        <a href="">
+                            <li>Tiendas oficiales</li>
+                        </a>
+                        <a href="">
+                            <li>Vender</li>
+                        </a>
+                        <a href="">
+                            <li>Ayuda</li>
+                        </a>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div>
+
+                <nav class="navbar-ingresos">
+
+                    <ul>
+
+                        <a href="">
+                            <li>Crea tu cuenta <i class="fa-solid fa-money-check"></i> </li>
+                        </a>
+                        <a href="">
+                            <li>Ingresa <i class="fa-solid fa-right-to-bracket"></i> </li>
+                        </a>
+                        <a href="">
+                            <li>Mis compras <i class="fa-solid fa-basket-shopping"></i> </li>
+                        </a>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+    </header>
+
+    <main>
+
+        <form action="/" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre y apellido">
+            <input type="text" name="usuario" placeholder="Nombre de usuario">
+            <input type="email" name="email" placeholder="E-mail">
+            <br>
+            <br>
+            <label for="birth_date"><b>Fecha de nacimiento</b></label>
+            <br>
+            <input type="date" name="birth_date" id="birth_date">
+            <br>
+            <input type="text" name="addres" placeholder="Domicilio">
+            <br>
+            <br>
+
+            <h4>Perfil del usuario</h4>
+            <div class="perfil">
+                <input type="radio" name="profile" value="buy" id="buy">
+                <label for="buy">Comprador</label>
+                <input type="radio" name="profile" value="sell" id="sell">
+                <label for="sell">Vendedor</label>
+            </div>
+            <br>
+            <br>
+
+            <h4>Intereses</h4>
+            <div class="intereses">
+                <div>
+                    <input type="checkbox" name="interests" value="a" id="a">
+                    <label for="a">Electro</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interests" value="b" id="b">
+                    <label for="b">Moda</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interests" value="c" id="c">
+                    <label for="c">Hogar</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interests" value="d" id="d">
+                    <label for="d">Juguetería</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interests" value="e" id="e">
+                    <label for="e">Vida sana</label>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <h4>Elegí tu foto de usuario</h4>
+            <input type="file" name="avatar">
+            <br>
+            <br>
+            <input type="password" name="pass" placeholder="Elegí tu contraseña">
+            <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <br>
+            <br>
+        </form>
+
+    </main>
+
+    <footer>
+
+        <section>
+            <i class="fa-solid fa-credit-card"></i>
+            <h4>paga con tarjeta o efectivo</h4>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+        </section>
+
+        <section>
+            <i class="fa-solid fa-gift"></i>
+            <h4>Envio gratis desde $2.500</h4>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+        </section>
+
+        <section>
+            <i class="fa-solid fa-user-shield"></i>
+            <h4>seguridad de principio a fin</h4>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+
+        </section>
+
+        <section>
+            <p class="hola">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </section>
+
+
+
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/6868278fd3.js" crossorigin="anonymous"></script>
+
+</body>
