@@ -306,3 +306,73 @@ footer {
     margin-top: 5%;
     text-align: center;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        background-color: #EAC926;
+        margin-bottom: 5px;
+    }
+
+    header i {
+        color: black;
+    }
+
+    .header-top {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-mercadoliebre {
+        width: 100%; 
+        display: flex;
+        justify-content: center; 
+    }
+
+    .compra {
+        padding: 20px;
+    }
+
+    header div.search {
+        display: none; /
+    }
+
+    header div p.compra {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-item ul {
+        display: none; 
+    }
+
+    .navbar-ingresos ul {
+        display: none; 
+    }
+
+    p .compra {
+        font-size: 18px;
+        display: flex;
+        align-items: flex-end;
+    }
+    input.boton-enviar-log {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /* Estilos para el pie de página */
+    footer i {
+        color: #1259c3;
+    }
+    
+    footer {
+        margin-top: 5%;
+        text-align: center;
+    }
+}
