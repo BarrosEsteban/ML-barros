@@ -17,7 +17,7 @@ header i {
     color: black;
 }
 
-.header-top{
+.header-top {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -125,7 +125,7 @@ div.burger-menu i {
     align-items: center;
 }
 
-.banner{
+.banner {
     width: 100%;
 }
 
@@ -187,12 +187,12 @@ article div.cada-articulo {
 
 .cada-articulo {
     transition: box-shadow 0.20s ease;
-    
+
 }
 
 .cada-articulo:hover {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 .fa-truck {
@@ -309,6 +309,12 @@ footer {
 
 
 
+@media (min-width: 768px) {
+    div.burger-menu i {
+        display: none;
+    }
+
+}
 
 
 @media (max-width: 768px) {
@@ -329,9 +335,9 @@ footer {
     }
 
     .logo-mercadoliebre {
-        width: 100%; 
+        width: 100%;
         display: flex;
-        justify-content: center; 
+        justify-content: center;
     }
 
     .compra {
@@ -339,7 +345,7 @@ footer {
     }
 
     header div.search {
-        display: none; /
+        display: none;/
     }
 
     header div p.compra {
@@ -348,11 +354,11 @@ footer {
     }
 
     .navbar-item ul {
-        display: none; 
+        display: none;
     }
 
     .navbar-ingresos ul {
-        display: none; 
+        display: none;
     }
 
     p .compra {
@@ -360,17 +366,18 @@ footer {
         display: flex;
         align-items: flex-end;
     }
+
     input.boton-enviar-log {
         width: 100%;
         padding: 10px;
         margin-bottom: 10px;
     }
-    
+
     /* Estilos para el pie de página */
     footer i {
         color: #1259c3;
     }
-    
+
     footer {
         margin-top: 5%;
         text-align: center;
